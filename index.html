@@ -253,11 +253,9 @@
       <div style="margin-top:12px;">
         
       <div class="j">
-        Почта: 
           <a href="mailto:${v("email")}" style="margin-left:5px;"> ${v("email")}</a>
         </div>
         <div class="j">
-          Телефон №1:
           <a href="tel:${v("phone1")}" style="margin-left:5px;">${v("phone1")}</a>
         </div>
 
@@ -265,14 +263,12 @@
           v("phone2")
             ? `
         <div class="j">
-          Телефон №2:
           <a href="tel:${v("phone2")}" style="margin-left:5px;">${v("phone2")}</a>
         </div>`
             : ""
         }
 
         <div class="j">
-          Сайт:
           <a href="https://${v("site")}" style="margin-left:5px;">${v("site")}</a>
         </div>
       </div>
