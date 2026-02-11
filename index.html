@@ -253,23 +253,23 @@
       <div style="margin-top:12px;">
         
       <div class="j">
-          <a href="mailto:${v("email")}" style="margin-left:5px;"> ${v("email")}</a>
+          <a href="mailto:${v("email")}"> ${v("email")}</a>
         </div>
         <div class="j">
-          <a href="tel:${v("phone1")}" style="margin-left:5px;">${v("phone1")}</a>
+          <a href="tel:${v("phone1")}">${v("phone1")}</a>
         </div>
 
         ${
           v("phone2")
             ? `
         <div class="j">
-          <a href="tel:${v("phone2")}" style="margin-left:5px;">${v("phone2")}</a>
+          <a href="tel:${v("phone2")}">${v("phone2")}</a>
         </div>`
             : ""
         }
 
         <div class="j">
-          <a href="https://${v("site")}" style="margin-left:5px;">${v("site")}</a>
+          <a href="https://${v("site")}">${v("site")}</a>
         </div>
       </div>
     </td>
